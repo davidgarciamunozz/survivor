@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# Heavy source material, kept outside the repo (see README):
+# the raw Meshy export (67 MB) and the product deck (29 MB). Neither is
+# needed to build or deploy — only to re-run the asset pipelines.
+Meshy_*.glb
+*.pdf
+
+# NOTE: public/frames and public/models ARE committed on purpose. They are
+# generated, but the build cannot regenerate them — `npm run frames` needs
+# ffmpeg, which the deploy environment does not have.

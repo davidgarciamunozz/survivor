@@ -1,0 +1,33 @@
+{
+  "name": "survivor-case",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "frames": "node scripts/extract-frames.mjs",
+    "model": "node scripts/optimize-model.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/three": "^0.185.4",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "^0.186.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "meshoptimizer": "^1.2.0",
+    "sharp": "^0.35.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}
