@@ -8,6 +8,7 @@ import { ProblemSection } from "@/components/ProblemSection";
 import { RisksSection } from "@/components/RisksSection";
 import { ScrollStage } from "@/components/ScrollStage";
 import { SiteFooter } from "@/components/SiteFooter";
+import { UseCasesSection } from "@/components/UseCasesSection";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       <main>
         <Hero />
         <ProblemSection />
+        <UseCasesSection />
         <ScrollStage />
         <OverviewSection />
         <PillarsSection />

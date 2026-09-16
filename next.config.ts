@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     return [
       {
         // Generated assets, replaced only by a rebuild; cache them hard.
-        source: "/:dir(frames|models)/:path*",
+        source: "/:dir(frames|models|scenes)/:path*",
         headers: [
           { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
         ],

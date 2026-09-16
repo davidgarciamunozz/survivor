@@ -39,6 +39,44 @@ const en = {
       "The tech already exists. The challenge is designing it for a context like Cali, without depending on anything external.",
   },
 
+  // The dark chapter. Four situations, told before the product exists on the
+  // page — the scenes carry the problem, not the case.
+  cases: {
+    eyebrow: "When it matters",
+    title: "Four moments the phone was never designed for.",
+    lead: "None of these are rare. Most of them have already happened to you.",
+    scenes: [
+      {
+        id: "road",
+        eyebrow: "No signal",
+        title: "Without signal, you can still call for help.",
+        body: "A breakdown on an empty road at night. No bars, nobody passing. The phone in your hand is a flashlight and nothing more.",
+        alt: "A person standing beside a stopped car on a dark mountain road, lit only by their phone.",
+      },
+      {
+        id: "quake",
+        eyebrow: "After the quake",
+        title: "When you can't call, make it possible to find you.",
+        body: "Dust, no light, no service. The phone drains itself trying to reach a network that is not there.",
+        alt: "A dim, damaged stairwell after an earthquake, dust in the air around a single lamp.",
+      },
+      {
+        id: "battery",
+        eyebrow: "1% left",
+        title: "Use your battery. Don't spend your last chance.",
+        body: "The emergency arrives and the phone is almost empty. Every minute of flashlight is a minute you will not have for the call.",
+        alt: "Hands holding a phone in darkness, the screen the only source of light.",
+      },
+      {
+        id: "care",
+        eyebrow: "Someone you love",
+        title: "It isn't about owning emergency gear. It's about carrying it.",
+        body: "An alarm in a drawer is not there when it happens. This one lives on the thing they already carry every day.",
+        alt: "An older woman sitting alone by a window in the late afternoon, her phone on the table beside her.",
+      },
+    ],
+  },
+
   // Copy blocks pinned to the scroll-scrubbed film. `at` and `until` are
   // fractions of the sequence, so the words land on the right frame.
   stage: [
@@ -197,6 +235,42 @@ const es: typeof en = {
     insightLabel: "El hallazgo",
     insight:
       "La tecnología ya existe. El reto es diseñarla para un contexto como Cali, sin depender de nada externo.",
+  },
+
+  cases: {
+    eyebrow: "Cuando importa",
+    title: "Cuatro momentos para los que el celular nunca fue diseñado.",
+    lead: "Ninguno es excepcional. La mayoría ya te ha pasado.",
+    scenes: [
+      {
+        id: "road",
+        eyebrow: "Sin señal",
+        title: "Sin señal también puedes pedir ayuda.",
+        body: "Una varada de noche en una vía sola. Sin barras, sin nadie que pase. El celular que tienes en la mano es una linterna y nada más.",
+        alt: "Una persona de pie junto a un carro detenido en una carretera de montaña a oscuras, iluminada solo por su celular.",
+      },
+      {
+        id: "quake",
+        eyebrow: "Después del sismo",
+        title: "Cuando no puedes llamar, haz que puedan encontrarte.",
+        body: "Polvo, sin luz, sin servicio. El celular se descarga solo, intentando alcanzar una red que no está.",
+        alt: "Una escalera en penumbra y con daños después de un sismo, con polvo en el aire alrededor de una sola lámpara.",
+      },
+      {
+        id: "battery",
+        eyebrow: "Queda 1%",
+        title: "Usa tu batería. No gastes tu última oportunidad.",
+        body: "Llega la emergencia y el celular está casi vacío. Cada minuto de linterna es un minuto que no vas a tener para la llamada.",
+        alt: "Unas manos sosteniendo un celular en la oscuridad; la pantalla es la única fuente de luz.",
+      },
+      {
+        id: "care",
+        eyebrow: "Alguien que quieres",
+        title: "No se trata de tener un equipo de emergencia. Se trata de llevarlo contigo.",
+        body: "Una alarma guardada en un cajón no está ahí cuando pasa algo. Esta vive en lo que esa persona ya carga todos los días.",
+        alt: "Una mujer mayor sentada sola junto a una ventana al final de la tarde, con su celular sobre la mesa.",
+      },
+    ],
   },
 
   stage: [

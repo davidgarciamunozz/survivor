@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "frames": "node scripts/extract-frames.mjs",
+    "scenes": "node scripts/optimize-scenes.mjs",
     "model": "node scripts/optimize-model.mjs",
     "dev": "next dev",
     "build": "next build",
